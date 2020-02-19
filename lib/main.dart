@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:math';
 
 void main() => runApp(RandomWidget());
 
@@ -8,6 +9,11 @@ class RandomWidget extends StatefulWidget {
 }
 
 class _RandomWidgetState extends State<RandomWidget> {
+  int _randomNumber = 1;
+  void _makeRandomNumber(){
+    _randomNumber = Random().nextInt(500) + 1 ;
+    print(_randomNumber);
+  }
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -22,7 +28,7 @@ class _RandomWidgetState extends State<RandomWidget> {
               Expanded(
                 child: Center(
                   child: Text(
-                    'Random Number: 0',
+                    'Random Number: $_randomNumber',
                     style: TextStyle(
                       fontSize: 30.0,
                       fontWeight: FontWeight.bold,
@@ -34,9 +40,7 @@ class _RandomWidgetState extends State<RandomWidget> {
             ],
           ),
         ),
-        floatingActionButton: FloatingActionButton(onPressed: () {
-          print('Action');
-        },
+        floatingActionButton: FloatingActionButton(onPressed: _makeRandomNumber,
         child: Icon(
             Icons.autorenew
         ),
