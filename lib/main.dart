@@ -34,6 +34,13 @@ class _RandomWidgetState extends State<RandomWidget> {
             ],
           ),
         ),
+        floatingActionButton: FloatingActionButton(onPressed: () {
+          print('Action');
+        },
+        child: Icon(
+            Icons.autorenew
+        ),
+        backgroundColor: Colors.black,),
       ),
     );
   }
