@@ -11,8 +11,10 @@ class RandomWidget extends StatefulWidget {
 class _RandomWidgetState extends State<RandomWidget> {
   int _randomNumber = 1;
   void _makeRandomNumber(){
+  setState(() {
     _randomNumber = Random().nextInt(500) + 1 ;
     print(_randomNumber);
+  });
   }
   @override
   Widget build(BuildContext context) {
