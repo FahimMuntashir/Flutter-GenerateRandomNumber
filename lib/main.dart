@@ -19,12 +19,16 @@ class _RandomWidgetState extends State<RandomWidget> {
         body: SafeArea(
           child: Column(
             children: <Widget>[
-              Text(
-                'Random Number: 0',
-                style: TextStyle(
-                  fontSize: 30.0,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.blue[500],
+              Expanded(
+                child: Center(
+                  child: Text(
+                    'Random Number: 0',
+                    style: TextStyle(
+                      fontSize: 30.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.blue[500],
+                    ),
+                  ),
                 ),
               ),
             ],
