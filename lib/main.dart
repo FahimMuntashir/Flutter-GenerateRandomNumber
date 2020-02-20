@@ -4,11 +4,13 @@ import 'dart:math';
 void main() => runApp(RandomWidget());
 
 class RandomWidget extends StatefulWidget {
+
   @override
   _RandomWidgetState createState() => _RandomWidgetState();
 }
 
 class _RandomWidgetState extends State<RandomWidget> {
+
   int _randomNumber = 1;
   void _makeRandomNumber(){
   setState(() {
@@ -19,6 +21,7 @@ class _RandomWidgetState extends State<RandomWidget> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text('Random Number'),
