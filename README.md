@@ -1,10 +1,27 @@
-# state
+# Flutter Generate Random Number
 
-A new Flutter project.
+A simple random number project 
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+![Screenshot_1582211609](https://user-images.githubusercontent.com/59383895/74949638-38683580-5428-11ea-9a04-ead1824bcf7c.png)
+
+
+
+
+
+# contributors
+ - Fahim Muntashir <fahim.tech.me@gmail.com>
+ 
+ 
+ 
+ 
+ # Getting Started 
+ 
+ For help getting started with Flutter, view our online <documentation>.
+
+
+
 
 A few resources to get you started if this is your first Flutter project:
 
