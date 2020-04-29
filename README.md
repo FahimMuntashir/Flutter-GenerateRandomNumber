@@ -4,8 +4,7 @@ A simple random number project
 
 ## Screenshots
 
-![Screenshot_1582211609](https://user-images.githubusercontent.com/59383895/74949638-38683580-5428-11ea-9a04-ead1824bcf7c.png)
-
+<img src ="randomui.png" width="300" >
 
 
 
